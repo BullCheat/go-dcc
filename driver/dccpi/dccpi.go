@@ -15,8 +15,8 @@ import (
 
 // GPIO Outputs for the Raspberry PI DCC encoder
 var (
-	BrakeGPIO  rpio.Pin = 27
-	SignalGPIO rpio.Pin = 17
+	BrakeGPIO  rpio.Pin = 21
+	SignalGPIO rpio.Pin = 20
 )
 
 func init() {
