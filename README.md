@@ -1,9 +1,9 @@
 go-dcc
 ======
 
-[![GoDoc](https://godoc.org/github.com/hsanjuan/go-dcc?status.svg)](http://godoc.org/github.com/hsanjuan/go-dcc)
-[![Build Status](https://travis-ci.org/hsanjuan/go-dcc.svg?branch=master)](https://travis-ci.org/hsanjuan/go-dcc)
-[![Coverage Status](https://coveralls.io/repos/github/hsanjuan/go-dcc/badge.svg?branch=master)](https://coveralls.io/github/hsanjuan/go-dcc?branch=master)
+[![GoDoc](https://godoc.org/github.com/BullCheat/go-dcc?status.svg)](http://godoc.org/github.com/BullCheat/go-dcc)
+[![Build Status](https://travis-ci.org/BullCheat/go-dcc.svg?branch=master)](https://travis-ci.org/BullCheat/go-dcc)
+[![Coverage Status](https://coveralls.io/repos/github/BullCheat/go-dcc/badge.svg?branch=master)](https://coveralls.io/github/BullCheat/go-dcc?branch=master)
 
 
 > NRMA Digital Command Control (DCC) implementation in Go.
@@ -95,7 +95,7 @@ Simply run:
 
 ```
 > go get -u github.com/stianeikeland/go-rpio
-> go get -u github.com/hsanjuan/go-dccpi/dccpi
+> go get -u github.com/BullCheat/go-dccpi/dccpi
 ```
 
 and the `dccpi` application will be downloaded, built and installed.
@@ -105,8 +105,8 @@ and the `dccpi` application will be downloaded, built and installed.
 Building sources:
 
 ```
-> go get -u github.com/hsanjuan/go-dccpi
-> cd $GOPATH/src/github.com/hsanjuan/go-dccpi
+> go get -u github.com/BullCheat/go-dccpi
+> cd $GOPATH/src/github.com/BullCheat/go-dccpi
 > make
 ```
 
@@ -176,11 +176,11 @@ This will allow to send packets to the three defined DCC devices directly withou
 
 ### Go Library Documentation
 
-The Go documentation is maintained with GoDoc. See: https://godoc.org/github.com/hsanjuan/go-dcc .
+The Go documentation is maintained with GoDoc. See: https://godoc.org/github.com/BullCheat/go-dcc .
 
 #### Additional drivers
 
-Additional drivers for `go-dcc` must implement the [`dcc.Driver` interface](https://godoc.org/github.com/hsanjuan/go-dcc#Driver).
+Additional drivers for `go-dcc` must implement the [`dcc.Driver` interface](https://godoc.org/github.com/BullCheat/go-dcc#Driver).
 
 Questions and contributions
 ---------------------------

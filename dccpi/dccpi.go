@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"strconv"
 
-	dcc "github.com/hsanjuan/go-dcc"
-	"github.com/hsanjuan/go-dcc/driver/dccpi"
-	"github.com/hsanjuan/go-dcc/driver/dummy"
+	dcc "github.com/BullCheat/go-dcc"
+	"github.com/BullCheat/go-dcc/driver/dccpi"
+	"github.com/BullCheat/go-dcc/driver/dummy"
 	rpio "github.com/stianeikeland/go-rpio"
 )
 

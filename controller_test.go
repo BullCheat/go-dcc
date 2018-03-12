@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hsanjuan/go-dcc/driver/dummy"
+	"github.com/BullCheat/go-dcc/driver/dummy"
 )
 
 func TestNewController(t *testing.T) {

@@ -3,7 +3,7 @@ package dcc
 import (
 	"testing"
 
-	"github.com/hsanjuan/go-dcc/driver/dummy"
+	"github.com/BullCheat/go-dcc/driver/dummy"
 )
 
 func TestApply(t *testing.T) {
