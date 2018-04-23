@@ -1,5 +1,7 @@
 go-dcc
 ======
+Édition BullCheat : pin 27 -> 21 et 17 -> 20
+======
 
 [![GoDoc](https://godoc.org/github.com/BullCheat/go-dcc?status.svg)](http://godoc.org/github.com/BullCheat/go-dcc)
 [![Build Status](https://travis-ci.org/BullCheat/go-dcc.svg?branch=master)](https://travis-ci.org/BullCheat/go-dcc)
